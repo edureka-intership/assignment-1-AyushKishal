@@ -51,7 +51,7 @@ div.heading {
 
 .container {
     margin: 50px 0px 0px 100px;
-    height: 700px;
+    height: 650px;
     width: 10vw;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
@@ -140,7 +140,6 @@ div.heading {
     border: 1px solid #8C96AB;
     border-radius: 3px;
     opacity: 1;
-    padding-top: 10px;
 }
 
 .top {
@@ -279,41 +278,32 @@ div.heading {
 
 }
 
-.movement {
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    border: 1px solid #8C96AB;
-    border-radius: 7px;
-    opacity: 1;
-    text-align: left;
-    font: normal normal medium 30px Poppins;
-    letter-spacing: 0px;
-    color: #8C96AB;
-    opacity: 1;
-    height: 25px;
+.page {
+    margin-bottom: -40px;
 }
 
 .movement1 {
     opacity: 50%;
-    height: 30px;
-    width: 30px;
-    color:#8C96AB;
+    height: 40px;
+    width: 40px;
+    color: #8C96AB;
     border: 1px solid #8C96AB;
     border-radius: 20%;
 }
 
 .movement2 {
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     color: #FFFFFF;
-    background-color:#8C96AB;
+    background-color: #8C96AB;
     border: 1px solid #8C96AB;
     border-radius: 20%;
 }
 
 .movement3 {
-    height: 30px;
-    width: 30px;
-    color:#8C96AB;
+    height: 40px;
+    width: 40px;
+    color: #8C96AB;
     border: 1px solid #8C96AB;
     border-radius: 20%;
 }
