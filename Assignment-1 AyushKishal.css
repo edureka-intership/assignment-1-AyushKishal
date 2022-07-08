@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ce0505;
+    height: 50px;
+    padding: 20px 0px 40px 0px;
+}
+
+.logo {
+    display: inline-block;
+    background-color: white;
+    color: #ce0505;
+    border-radius: 50%;
+    font-size: 50px;
+    margin-left: 100px;
+    width: 50px;
+    align-items: center;
+}
+
+.login {
+    display: inline-block;
+    margin-left: 1400px;
+    font-size: 20px;
+    color: white;
+}
+
+.create {
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 20px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5%;
+    padding: 10px;
+}
+
+.heading {
+    text-align: left;
+    font: normal normal bold 55px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+
+div.heading {
+    margin-left: 100px;
+}
+
+.container {
+    margin: 50px 0px 0px 100px;
+    height: 700px;
+    width: 10vw;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    padding-left: 50px;
+    padding-top: 20px;
+    display: inline-block;
+    position: relative;
+}
+
+.filter {
+    text-align: left;
+    font: normal normal 600 27px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+    padding-top: 5px;
+}
+
+.location {
+    text-align: left;
+    font: normal normal normal 21px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+    padding-top: 15px;
+}
+
+.cuisine {
+    text-align: left;
+    font: normal normal normal 21px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+    padding-top: 15px;
+}
+
+.cost {
+    text-align: left;
+    font: normal normal normal 21px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+    padding-top: 15px;
+}
+
+.sort {
+    text-align: left;
+    font: normal normal 600 27px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+    padding-top: 15px;
+}
+
+.food {
+    text-align: left;
+    font: normal normal normal 21px Poppins;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 1;
+    padding-top: 10px;
+
+}
+
+.budget {
+    text-align: left;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 1;
+    padding-top: 10px;
+
+}
+
+.range {
+    text-align: left;
+    font: normal normal normal 21px Poppins;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 1;
+
+    padding-top: 10px;
+}
+
+#location {
+    border: 1px solid #8C96AB;
+    border-radius: 3px;
+    opacity: 1;
+    padding-top: 10px;
+}
+
+.top {
+    display: inline-block;
+    width: 1200px;
+    height: 250px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-left: 300px;
+    position: absolute;
+    top: 0px;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.bottom {
+    display: inline-block;
+    width: 1200px;
+    height: 250px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-left: 300px;
+    position: absolute;
+    top: 300px;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.img {
+    position: absolute;
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    padding: 10px 0px 0px 20px;
+    margin: 10px 0px 0px 15px;
+}
+
+.restaurant {
+    position: absolute;
+    margin-left: 125px;
+    top: 0;
+    left: 200px;
+}
+
+.subheading {
+    text-align: left;
+    font: normal normal 600 46px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+
+.area {
+    text-align: left;
+    font: normal normal 300 30px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+    margin-top: 10px;
+}
+
+.address {
+    text-align: left;
+    font: normal normal normal 30px Poppins;
+    letter-spacing: 0px;
+    color: #636F88;
+    opacity: 1;
+}
+
+.line {
+    border: 1px solid #DEDFE5;
+    opacity: 1;
+    top: 150px;
+    margin: 0px 35px;
+    position: relative;
+}
+
+.type {
+    text-align: left;
+    font: normal normal normal 30px Poppins;
+    letter-spacing: 0px;
+    color: #636F88;
+    opacity: 1;
+    width: 226px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.bakery {
+    text-align: left;
+    font: normal normal normal 30px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+    display: inline-block;
+    position: absolute;
+    top: 155px;
+}
+
+.bakery2 {
+    text-align: left;
+    font: normal normal normal 30px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+    display: inline-block;
+    position: absolute;
+    top: 155px;
+}
+
+.money {
+    text-align: left;
+    font: normal normal normal 30px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+    display: inline-block;
+}
+
+.bottom {
+    display: inline-block;
+    width: 1200px;
+    height: 250px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    margin-left: 300px;
+    position: absolute;
+    top: 300px;
+}
+
+.page {
+    position: absolute;
+    left: 750px;
+    width: 1000px;
+    font-size: 50px;
+    bottom: 50px;
+
+}
+
+.movement {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #8C96AB;
+    border-radius: 7px;
+    opacity: 1;
+    text-align: left;
+    font: normal normal medium 30px Poppins;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 1;
+    height: 25px;
+}
+
+.movement1 {
+    background: #8C96AB 0% 0% no-repeat padding-box;
+    border: 1px solid #8C96AB;
+    border-radius: 7px;
+    opacity: 1;
+    text-align: left;
+    font: normal normal medium 30px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    height: 25px;
+}
+
+.movement2 {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #8C96AB;
+    border-radius: 7px;
+    opacity: 1;
+    text-align: left;
+    font: normal normal medium 30px Poppins;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 0.4;
+    height: 25px;
+}
+.food-img{
+    border-radius: 10px;
+}
