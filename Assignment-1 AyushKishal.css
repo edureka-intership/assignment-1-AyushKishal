@@ -293,30 +293,35 @@ div.heading {
 }
 
 .movement1 {
-    background: #8C96AB 0% 0% no-repeat padding-box;
+    opacity: 50%;
+    height: 30px;
+    width: 30px;
+    color:#8C96AB;
     border: 1px solid #8C96AB;
-    border-radius: 7px;
-    opacity: 1;
-    text-align: left;
-    font: normal normal medium 30px Poppins;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
-    height: 25px;
+    border-radius: 20%;
 }
 
 .movement2 {
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    height: 30px;
+    width: 30px;
+    color: #FFFFFF;
+    background-color:#8C96AB;
     border: 1px solid #8C96AB;
-    border-radius: 7px;
-    opacity: 1;
-    text-align: left;
-    font: normal normal medium 30px Poppins;
-    letter-spacing: 0px;
-    color: #8C96AB;
-    opacity: 0.4;
-    height: 25px;
+    border-radius: 20%;
 }
-.food-img{
+
+.movement3 {
+    height: 30px;
+    width: 30px;
+    color:#8C96AB;
+    border: 1px solid #8C96AB;
+    border-radius: 20%;
+}
+
+.food-img {
     border-radius: 10px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
 }
